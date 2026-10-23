@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical Time - Tarjetas BEM</title>
+  
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1 class="container__title">Ejercicio Práctico</h1>
+
+    <div class="cards-grid">
+      
+      <!-- Tarjeta 1 -->
+      <article class="card">
+        <header class="card__header"></header>
+
+        <div class="card__avatar-wrapper">
+            <img class="card__avatar" src="img/1.png" alt="Jhon Doe">
+        </div>
+        
+        <div class="card__body">
+          <h2 class="card__name">iFarmer</h2>
+          <hr class="card__divider">
+          <p class="card__description">
+            Aficionado a los videojuegos de acción y aventuras, con un enfoque en la transmisión en vivo de contenido de juegos a través de plataformas como Twitch. Disfruto compartir mis experiencias de juego y conectarme con la comunidad gamer.
+          </p>
+          
+          <!-- Acciones de la tarjeta 1 -->
+           
+          <div class="card__actions">
+            <button class="card__action-btn" aria-label="Agregar"><a href="https://www.twitch.tv/ifarmercol" target="_blank"><i class="fa-brands fa-twitch fa-bounce"></i></a></button>
+            <button class="card__action-btn" aria-label="WhatsApp"><a href="https://wa.me/+573246033085" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce"></i></a></button>
+            <button class="card__action-btn" aria-label="Email"><i class="fa-regular fa-envelope fa-bounce"></i></button>
+          </div>
+        </div>
+
+        <footer class="card__footer">
+          <div class="card__socials">
+            <a href="#" class="card__social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="card__social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="card__social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="card__social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </footer>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="card">
+        <header class="card__header"></header>
+
+        <div class="card__avatar-wrapper">
+            <img class="card__avatar" src="img/2.jpg" alt="Jhon Doe">
+        </div>
+        
+        <div class="card__body">
+          <h2 class="card__name">Luis Piamba</h2>
+          <hr class="card__divider">
+          <p class="card__description">
+            Estudiante de Tecnologia en Sistemas de Información, actualemente se desempeña como practicante
+            de desarrollo web, con conocimientos en HTML, CSS, JavaScript y frameworks. Apasionado por la creación de aplicaciones web interactivas y funcionales.
+          </p>
+          
+          <div class="card__actions">
+            <button class="card__action-btn card__action-btn--outline" aria-label="git"><i class="fa-brands fa-github fa-fade"></i></button>
+            <button class="card__action-btn card__action-btn--outline" aria-label="WhatsApp"><a href="https://wa.me/+573157045524" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp fa-beat"></i></a></button>
+            <button class="card__action-btn card__action-btn--outline" aria-label="code"><a href="https://fundacionhermanrivasurrea.orgruh.com/" target="_blank" aria-label="Code"><i class="fa-solid fa-code fa-flip"></i></a></button>
+          </div>
+        </div>
+
+        <footer class="card__footer">
+          <div class="card__socials">
+            <a href="#" class="card__social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="card__social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="card__social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="card__social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </footer>
+      </article>
+
+    </div>
+  </main>
+
+</body>
+</html>
